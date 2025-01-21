@@ -1,5 +1,3 @@
-Here is the list of your 30 projects sorted from simpler to more complex:
-
 ### **1. Virtual Dice Roller** - Complexity: 1  
 A simple Python script that simulates the rolling of a dice.
 
