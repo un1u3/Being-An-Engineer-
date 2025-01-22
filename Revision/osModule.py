@@ -20,7 +20,7 @@ print(os.getcwd())
 # os.rmdir("NOt")
 
 
-# to rename 
+# to rename git 
 # os.rename("hello.txt","demo.txt")
 
 
@@ -38,3 +38,8 @@ for dirpath, dirnames, filenames in os.walk('/home/un1u3/Desktop/Being-An-Engine
 
 
 # Checking The connection   
+
+
+
+
+file_path = os.environ.get('HOME')
