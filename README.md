@@ -6,5 +6,5 @@ So , Today Jan 20 at 21:01
 I am starting this repo 
 Here I will only push the code that I coded 
 Solutions that I coded 
-Nothing Else 
+Nothing Else.
 - Unique Shrestha 
