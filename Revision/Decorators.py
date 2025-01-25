@@ -20,13 +20,20 @@ def decorator_function(original_function):
         return original_function()
     return wrapper_function
 
-
+@decorator_function
 def display():
     print("Display fucntion Ran")
-    
-decorated_display = decorator_function(display)
 
-decorated_display()
 
+display()
+
+
+import time
+
+def timer(func):
+    def wrapper(*args, **kwargs):
+        result = func(*args, **kwargs)
+        return result
+        
 # hi = outer_function("Hi")
 # bye = outer_function("BYe")
