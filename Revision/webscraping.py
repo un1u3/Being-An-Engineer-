@@ -7,4 +7,7 @@ source = requests.get('http://coreyms.com').text
 soup = BeautifulSoup(source,'lxml')
 
 
-print(soup.prettify())
+
+article = soup.find_all('div',class_='container')
+print(article)
+
