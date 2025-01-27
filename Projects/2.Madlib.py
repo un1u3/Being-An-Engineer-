@@ -1,34 +1,30 @@
-# Function to create a Mad Lib
-def madlib_generator():
-    print("Welcome to the Mad Libs Generator!")
-
-    # Template for the Mad Lib
+def madlib_generaor():
+    
     story = """
-    Once upon a time, there was a [adjective] [noun] who loved to [verb]. 
-    One day, the [noun] found a [adjective] treasure chest full of [plural_noun]. 
-    Excited, the [noun] decided to [verb] all day long. 
-    It was truly a [adjective] adventure!
+    Once upon a time, there was a [word1] [word2] who loved to [word3]. 
+    One day, the [word4] found a [word1] treasure chest full of [word4]. 
+    Excited, the [word2] decided to [word3] all day long. 
+    It was truly a [word1] adventure!
     """
-
-
-    # Words the user will provide
-    placeholders = ["adjective", "noun", "verb", "plural_noun"]
-
-    # Dictionary to store user inputs
-    user_inputs = {}
-
-    # Ask user for inputs
+    
+    
+    
+    
+    placeholders = ['word1','word2','word3','word4']
+    
+    userinput = {}
+    
     for placeholder in placeholders:
-        user_inputs[placeholder] = input(f"Enter a {placeholder}: ")
-
-    # Replace placeholders with user inputs
-    for key, value in user_inputs.items():
-        story = story.replace(f"[{key}]", value)
-
-    # Print the final story
-    print("\nHere's your Mad Lib story:")
+        userinput[placeholder] = input("Enter ")
+        
+    for key, value in userinput.items():
+        story = story.replace(f"[{key}]",value)
+        
+        
+        
     print(story)
-
-
-# Run the Mad Lib generator
-madlib_generator()
+        
+    
+    
+madlib_generaor()
+    
