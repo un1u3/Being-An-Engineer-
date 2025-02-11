@@ -10,6 +10,18 @@ def validate_path(path):
     return True
 
 
+
+def traversal(path,indent = ''):
+    try:
+        items = os.listdir(path)
+        items.sort()
+        
+        for i, items in enumerate(items):
+            item_path = os.path.join(path,item)
+            
+            is_last = (i== len(items)-1)
+            pref
+
 def main():
     path = input("Enter the directory").strip()
     
